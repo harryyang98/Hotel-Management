@@ -1,0 +1,161 @@
+html,body {
+	height: 100%;
+}
+
+body.customer {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.customer .brand {
+	width: 200px;
+	height: 80px;
+	overflow: hidden;
+	/*border-radius: 50%;*/
+	margin: 40px auto;
+	/*box-shadow: 0 4px 8px rgba(0,0,0,.05);*/
+	position: relative;
+	z-index: 1;
+}
+
+.customer .brand img {
+	width: 100%;
+}
+
+/*.customer .card-wrapper {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 400px;
+}*/
+
+.customer .name_tag {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 300px;
+}
+
+.customer .room_booking {
+	position: absolute;
+	top: 130px;
+	left: 5%;
+	width: 300px;
+}
+
+.customer .food_ordering {
+	position: absolute;
+	top: 130px;
+	left: 30%;
+	width: 300px;
+}
+
+.customer .food_menu {
+	position: absolute;
+	top: 130px;
+	right: 30%;
+	width: 300px;
+}
+
+.customer .plan_management {
+	position: absolute;
+	top: 130px;
+	right: 5%;
+	width: 300px;
+}
+
+.customer .delete_account {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 300px;
+}
+
+
+.customer .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.customer .card.fat {
+	padding: 10px;
+}
+
+.customer .card .card-title {
+	margin-bottom: 30px;
+}
+
+.customer .form-control {
+	border-width: 2.3px;
+}
+
+.customer .form-group label {
+	width: 100%;
+}
+
+.customer .btn.btn-block {
+	padding: 12px 10px;
+}
+
+.customer .footer {
+	position: absolute;
+	bottom: 10px;
+	margin: 40px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 1500px) {
+	.customer .name_tag {
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.customer .room_booking {
+		top:180px;
+		left: 1%;
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.customer .food_ordering {
+		top: 180px;
+		left: 28%;
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.customer .food_menu {
+		top: 180px;
+		right: 28%;
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.customer .plan_management {
+		top: 180px;
+		right: 1%;
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.customer .delete_account {
+		top: 900px;
+		width: 20%;
+		margin: 0 auto;
+	}
+
+	.customer .footer {
+		top: 1000px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.customer .card.fat {
+		padding: 0;
+	}
+
+	.customer .card.fat .card-body {
+		padding: 15px;
+	}
+}
